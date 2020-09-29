@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ralucamavriche/DesignTest/static/css/main.349b955e.chunk.css",
-    "main.js": "/ralucamavriche/DesignTest/static/js/main.f44d0188.chunk.js",
-    "main.js.map": "/ralucamavriche/DesignTest/static/js/main.f44d0188.chunk.js.map",
-    "runtime-main.js": "/ralucamavriche/DesignTest/static/js/runtime-main.03a71450.js",
-    "runtime-main.js.map": "/ralucamavriche/DesignTest/static/js/runtime-main.03a71450.js.map",
-    "static/js/2.77030c92.chunk.js": "/ralucamavriche/DesignTest/static/js/2.77030c92.chunk.js",
-    "static/js/2.77030c92.chunk.js.map": "/ralucamavriche/DesignTest/static/js/2.77030c92.chunk.js.map",
-    "index.html": "/ralucamavriche/DesignTest/index.html",
-    "precache-manifest.54103216dbdf0b16e04854ad3097203d.js": "/ralucamavriche/DesignTest/precache-manifest.54103216dbdf0b16e04854ad3097203d.js",
-    "service-worker.js": "/ralucamavriche/DesignTest/service-worker.js",
-    "static/css/main.349b955e.chunk.css.map": "/ralucamavriche/DesignTest/static/css/main.349b955e.chunk.css.map",
-    "static/js/2.77030c92.chunk.js.LICENSE.txt": "/ralucamavriche/DesignTest/static/js/2.77030c92.chunk.js.LICENSE.txt"
+    "main.css": "/DesignTest/static/css/main.349b955e.chunk.css",
+    "main.js": "/DesignTest/static/js/main.41f3ffcf.chunk.js",
+    "main.js.map": "/DesignTest/static/js/main.41f3ffcf.chunk.js.map",
+    "runtime-main.js": "/DesignTest/static/js/runtime-main.8997acc1.js",
+    "runtime-main.js.map": "/DesignTest/static/js/runtime-main.8997acc1.js.map",
+    "static/js/2.77030c92.chunk.js": "/DesignTest/static/js/2.77030c92.chunk.js",
+    "static/js/2.77030c92.chunk.js.map": "/DesignTest/static/js/2.77030c92.chunk.js.map",
+    "index.html": "/DesignTest/index.html",
+    "precache-manifest.df3af3bd00db7cdd20ed1a1b93d745f2.js": "/DesignTest/precache-manifest.df3af3bd00db7cdd20ed1a1b93d745f2.js",
+    "service-worker.js": "/DesignTest/service-worker.js",
+    "static/css/main.349b955e.chunk.css.map": "/DesignTest/static/css/main.349b955e.chunk.css.map",
+    "static/js/2.77030c92.chunk.js.LICENSE.txt": "/DesignTest/static/js/2.77030c92.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.03a71450.js",
+    "static/js/runtime-main.8997acc1.js",
     "static/js/2.77030c92.chunk.js",
     "static/css/main.349b955e.chunk.css",
-    "static/js/main.f44d0188.chunk.js"
+    "static/js/main.41f3ffcf.chunk.js"
   ]
 }
