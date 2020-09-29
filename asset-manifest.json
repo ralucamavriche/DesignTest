@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ralucamavriche/DesignTest/static/css/main.349b955e.chunk.css",
+    "main.js": "/ralucamavriche/DesignTest/static/js/main.f44d0188.chunk.js",
+    "main.js.map": "/ralucamavriche/DesignTest/static/js/main.f44d0188.chunk.js.map",
+    "runtime-main.js": "/ralucamavriche/DesignTest/static/js/runtime-main.03a71450.js",
+    "runtime-main.js.map": "/ralucamavriche/DesignTest/static/js/runtime-main.03a71450.js.map",
+    "static/js/2.77030c92.chunk.js": "/ralucamavriche/DesignTest/static/js/2.77030c92.chunk.js",
+    "static/js/2.77030c92.chunk.js.map": "/ralucamavriche/DesignTest/static/js/2.77030c92.chunk.js.map",
+    "index.html": "/ralucamavriche/DesignTest/index.html",
+    "precache-manifest.54103216dbdf0b16e04854ad3097203d.js": "/ralucamavriche/DesignTest/precache-manifest.54103216dbdf0b16e04854ad3097203d.js",
+    "service-worker.js": "/ralucamavriche/DesignTest/service-worker.js",
+    "static/css/main.349b955e.chunk.css.map": "/ralucamavriche/DesignTest/static/css/main.349b955e.chunk.css.map",
+    "static/js/2.77030c92.chunk.js.LICENSE.txt": "/ralucamavriche/DesignTest/static/js/2.77030c92.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03a71450.js",
+    "static/js/2.77030c92.chunk.js",
+    "static/css/main.349b955e.chunk.css",
+    "static/js/main.f44d0188.chunk.js"
+  ]
+}
