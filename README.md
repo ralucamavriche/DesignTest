@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Demo Frontend [DEMO](https://ralucamavriche.github.io/DesignTest/).
 
 ## Available Scripts
 
