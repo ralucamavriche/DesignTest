@@ -1,0 +1,15 @@
+.paginations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    padding: 5px 10px;
+    margin-right: 10px;
+    &.pageDots{
+        padding: 0;
+        p{
+            margin-top: 5px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.optionsContainer{
+    display: flex;
+    height: 40px;
+}
+.saveContainer{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: inherit;
+    padding: 10px;
+}
+.reportsContainer{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: inherit;
+    padding: 10px;
+}
+
+.iconImg{
+    height: 100%;
+}

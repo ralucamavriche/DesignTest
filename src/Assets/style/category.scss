@@ -1,0 +1,27 @@
+.categoryContainer{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    padding: 2px;
+    box-sizing: border-box;
+  
+    
+}
+.categoryTitle{
+    width: 100%;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+.categoryScore{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
