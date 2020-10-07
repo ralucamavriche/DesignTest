@@ -3,15 +3,15 @@ import '../Assets/style/category.scss'
 
 
 
-export default function Category({title, score, button1, button2}) {
+export default function Category({ title, score, button1, button2, onClick, active }) {
     return (
-        <div  style={{
+        <div style={{
             background: `url(${button1})`,
             backgroundSize: '100% 100%'
-        }}className='categoryContainer'>
+        }} onClick={() => onClick(title)} className={active ? 'categoryContainer active' : 'categoryContainer'}>
             <div className="categoryTitle">
                 <span>
-                {title}
+                    {title}
                 </span>
             </div>
             <div style={{
@@ -19,8 +19,8 @@ export default function Category({title, score, button1, button2}) {
                 backgroundSize: '100% 100%'
             }} className="categoryScore">
                 <span>
-                {score}
-               </span>
+                    {score}
+                </span>
             </div>
         </div>
     )

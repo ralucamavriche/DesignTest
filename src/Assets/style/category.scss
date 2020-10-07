@@ -1,4 +1,4 @@
-.categoryContainer{
+.categoryContainer {
     width: 250px;
     display: flex;
     justify-content: center;
@@ -7,21 +7,23 @@
     height: 40px;
     padding: 2px;
     box-sizing: border-box;
-  
-    
+    &:hover,
+    &.active {
+        box-shadow: 0px 0px 1px 1px rgb(117, 115, 115);
+        cursor: pointer;
+    }
 }
-.categoryTitle{
+.categoryTitle {
     width: 100%;
     padding: 5px;
     color: white;
     text-align: center;
 }
 
-.categoryScore{
+.categoryScore {
     height: 100%;
     display: flex;
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
-
 }

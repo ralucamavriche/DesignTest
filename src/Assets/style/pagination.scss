@@ -6,6 +6,9 @@
 .page{
     padding: 5px 10px;
     margin-right: 10px;
+    &:hover{
+        cursor: pointer;
+    }
     &.pageDots{
         padding: 0;
         p{

@@ -1,39 +1,81 @@
 import React from 'react'
 import '../Assets/style/pagination.scss'
 import pageSelected from '../Assets/img/page-numbers-selected.png'
-import pageNumbers from '../Assets/img/page-numbers.png'
+import pageNumbersBackground from '../Assets/img/page-numbers.png'
 
-export default function Pagination() {
+export default function Pagination({ pageNumbers, onClick, currentPage }) {
     return (
         <div className="paginationContiner">
             <div className="paginations">
-                <div style={{
-                    background: `url(${pageSelected})`,
-                    backgroundSize: '100% 100%'
-                }} className="page">
-                    <span>1</span>
-                </div>
-                <div style={{
-                    background: `url(${pageNumbers})`,
-                    backgroundSize: '100% 100%'
-                }} className="page">
-                    <span>2</span>
-                </div>
-                <div style={{
-                    background: `url(${pageNumbers})`,
-                    backgroundSize: '100% 100%'
-                }} className="page">
-                    <span>3</span>
-                </div>
-                <div  className="page pageDots">
-                    <p>...</p>
-                </div>
-                <div style={{
-                    background: `url(${pageNumbers})`,
-                    backgroundSize: '100% 100%'
-                }} className="page">
-                    <span>16</span>
-                </div>
+                {
+                    pageNumbers.length <= 5 ? (
+                        pageNumbers.map((page, index) => {
+                            return (
+                                <div key={index} style={{
+                                    background: currentPage === page ? `url(${pageSelected}) 0% 0% / 100% 100%` : `url(${pageNumbersBackground}) 0% 0% / 100% 100%`
+                                }} onClick={() => onClick(page)} className="page">
+                                    <span>{page}</span>
+                                </div>
+                            )
+                        })
+                    ) : (
+                            <>
+                                {
+                                    currentPage === 1 && (
+                                        pageNumbers.map((page, index) => {
+                                            if (index + 1 === currentPage || index + 1 === currentPage + 1 || index + 1 === currentPage + 2 || index + 1 === pageNumbers.length)
+                                                return (
+                                                    <div style={{
+                                                        background: currentPage === page ? `url(${pageSelected}) 0% 0% / 100% 100%` : `url(${pageNumbersBackground}) 0% 0% / 100% 100%`
+                                                    }} onClick={() => onClick(page)} className="page">
+                                                        <span>{page}</span>
+
+                                                    </div>
+                                                )
+                                            if (index + 1 === pageNumbers.length - 1) {
+                                                return (
+                                                    <div className="page pageDots">
+                                                        <p>...</p>
+                                                    </div>
+                                                )
+                                            }
+                                            return null;
+                                        })
+
+                                    )
+                                }
+                                {
+                                    currentPage > 1 && (
+                                        
+                                        pageNumbers.map((page, index) => {
+                                            
+                                            if (index + 1 === 1 || index + 1 === currentPage - 1 || index + 1 === currentPage + 1 || index + 1 === currentPage || index + 1 === pageNumbers.length)
+                                                return (
+                                                    <div style={{
+                                                        background: currentPage === page ? `url(${pageSelected}) 0% 0% / 100% 100%` : `url(${pageNumbersBackground}) 0% 0% / 100% 100%`
+                                                    }} onClick={() => onClick(page)} className="page">
+                                                        <span>{page}</span>
+
+                                                    </div>
+                                                )
+                                                if (index + 1 === pageNumbers.length - 1 || index + 1 === 2) {
+                                                    return (
+                                                        <div className="page pageDots">
+                                                            <p>...</p>
+                                                        </div>
+                                                    )
+                                                }
+
+                                            return null;
+                                        })
+
+                                    )
+                                }
+
+
+                            </>
+                        )
+                }
             </div>
         </div>
     )
