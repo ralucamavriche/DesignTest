@@ -1,4 +1,8 @@
-Live Demo Frontend [DEMO](https://ralucamavriche.github.io/DesignTest/).
+Live Demo Frontend [DEMO](https://ralucamavriche.github.io/DesignTest/)
+<br />
+
+
+This application was made during the technical interview. With the help of resources and requirements set by the interviewer, I had to realize the design and functionality of the application.
 
 ## Available Scripts
 
